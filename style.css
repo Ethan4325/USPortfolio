@@ -1,0 +1,2150 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+a{
+    color: #fff;
+}
+
+header{
+   background-color: #00092a;
+   height: 50px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   z-index: 1000;
+}
+
+body{
+  background-color: #03103d;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+section{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.logo{
+   font-size: 26px;
+   color: #ffff;
+   position: absolute;
+   left: 0;
+   top: 30%;
+}
+
+.logo-2{
+   font-size: 26px;
+   color: #043bff;
+   position: absolute;
+   left: 4%;
+   top: 30%;
+}
+
+.menu-bar a.hello{
+   margin-right: 20px;
+   position: absolute;
+   left: 50%;
+   top: 30%;
+}
+
+.bx-home{
+   position: absolute;
+   left: 48%;
+   top: 30%;
+}
+
+.menu-bar a.bye{
+   margin-right: 20px;
+   position: absolute;
+   left: 60%;
+   top: 30%;
+}
+
+.bx-question-mark{
+   position: absolute;
+   left: 58%;
+   top: 30%;
+}
+
+.menu-bar a.night{
+   margin-right: 20px;
+   position: absolute;
+   left: 70%;
+   top: 30%;
+}
+
+.bx-cube{
+   position: absolute;
+   left: 68%;
+   top: 30%;
+}
+
+.menu-bar a.time{
+   margin-right: 20px;
+   position: absolute;
+   left: 83%;
+   top: 30%;
+}
+
+.bxl-product-hunt{
+   position: absolute;
+   left: 81.4%;
+   top: 30%;
+}
+
+.menu-bar a.eye{
+   margin-right: 20px;
+   position: absolute;
+   left: 93%;
+   top: 30%;
+}
+
+.bxs-contact{
+   position: absolute;
+   left: 91.5%;
+   top: 30%;
+}
+
+.menu-bar a:hover{
+   background-color: #fff;
+   color: #4285f4;
+   padding: 10px 5px 5px 10px;
+   border-radius: 50px;
+   transition: 0.5s;
+}
+
+
+p.salut{
+   font-size: 16px;
+   font-family: serif;
+}
+p.name{
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#ABOUT{
+   scroll-margin-top: 50px;
+}
+
+#SKILLS{
+   scroll-margin-top: 50px;
+}
+
+#PROJECTS{
+   scroll-margin-top: 50px;
+}
+
+#CONTACT{
+   scroll-margin-top: 50px;
+}
+
+.title{
+   color: #fff;
+   font-size: 24px;
+   position: absolute;
+   top: 30%;
+   left: 10%;
+}
+
+.modify{
+   color: #043bff;
+   font-size: 30px;
+}
+
+.first{
+   font-size: 17px;
+   line-height: 2;
+   position: absolute;
+   top: 40%;
+   left: 10%;
+}
+
+.img{
+   position: absolute;
+   left: 63%;
+   top: 20%;
+   width: 500px;
+   height: 500px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.second{
+   position: absolute;
+   top: 110%;
+   left: 20%;
+   line-height: 2.5;
+}
+
+b{
+   font-size: 18px;
+   color: #043bff;
+   text-decoration: underline;
+}
+
+.z{
+   position: absolute;
+   top: 230%;
+   left: 20%;
+}
+
+.html5{
+   width: 150px;
+   position: absolute;
+   top: 214%;
+   left: 16.5%;
+
+}
+
+.y{
+   position: absolute;
+   top: 230%;
+   left: 50%;
+}
+
+.css-3{
+   width: 131px;
+   position: absolute;
+   top: 214%;
+   left: 46.5%;
+}
+
+.x{
+   position: absolute;
+   top: 230%;
+   left: 80%;
+}
+
+.pyth{
+   width: 130px;
+   position: absolute;
+   top: 214%;
+   left: 78%;
+
+}
+
+.w{
+   position: absolute;
+   top: 280%;
+   left: 20%;
+}
+
+.ph{
+   width: 150px;
+   position: absolute;
+   top: 265%;
+   left: 15.5%;
+
+}
+
+.v{
+   position: absolute;
+   top: 280%;
+   left: 52.5%;
+}
+
+.R{
+   width: 150px;
+   position: absolute;
+   top: 265%;
+   left: 46.5%;
+
+}
+
+.skill-bar-a{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 12%;
+}
+
+.skill-per-a{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: html-5 2s;
+   width: 40%;
+}
+
+@keyframes html-5{
+   from{
+      width: 0;
+   }
+   to{
+      width: 40%;
+   }
+}
+
+.skill-bar-b{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 42%;
+}
+
+.skill-per-b{
+   height: 14px;
+   background-color:  #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: css-3 2s;
+   width: 40%;
+}
+
+@keyframes css-3{
+   from{
+      width: 0;
+   }
+   to{
+      width: 40%;
+   }
+}
+
+.skill-bar-c{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 235%;
+   left: 74%;
+}
+
+.skill-per-c{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: pyth 2s;
+   width: 30%;
+}
+
+@keyframes pyth{
+   from{
+      width: 0;
+   }
+   to{
+      width: 30%;
+   }
+}
+
+.skill-bar-d{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 284%;
+   left: 12%;
+}
+
+.skill-per-d{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: ph 2s;
+   width: 20%;
+}
+
+@keyframes ph{
+   from{
+      width: 0;
+   }
+   to{
+      width: 20%;
+   }
+}
+
+.skill-bar-e{
+   width: 20%;
+   height: 14px;
+   background-color: #fff;
+   border-radius: 100px;
+   position: absolute;
+   top: 284%;
+   left: 42%;
+}
+
+.skill-per-e{
+   height: 14px;
+   background-color: #e67e22;
+   border-radius: 100px;
+   justify-content: flex-end;
+   overflow: hidden;
+   animation: R 2s;
+   width: 10%;
+}
+
+@keyframes R{
+   from{
+      width: 0;
+   }
+   to{
+      width: 10%;
+   }
+}
+
+.enter{
+   position: absolute;
+   top: 8%;
+   left: 1%;
+   font-size: 24px;
+}
+
+#name{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 7.5%;
+   left: 14%;
+}
+
+
+.enter-2{
+   position: absolute;
+   top: 28%;
+   left: 1%;
+   font-size: 24px;
+}
+
+#email{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 27%;
+   left: 14%;
+}
+
+.enter-3{
+   position: absolute;
+   top: 48%;
+   left: 1%;
+   font-size: 24px;
+}
+
+#phone{
+   border: 1px solid black;
+   width: 700px;
+   height: 33px;
+   border-radius: 10px;
+   position: absolute;
+   top: 47.5%;
+   left: 17%;
+}
+
+.enter-4{
+   position: absolute;
+   top: 72%;
+   left: 1%;
+   font-size: 24px;
+}
+
+#comment{
+   border: 1px solid black;
+   width: 700px;
+   height: 120px;
+   border-radius: 10px;
+   position: absolute;
+   top: 66%;
+   left: 18%;
+}
+
+.box{
+   border: 2px solid white;
+   box-shadow: 5px 5px;
+   width: 900px;
+   height: 600px;
+   position: absolute;
+   left: 16%;
+   top: 405%;
+}
+
+.button{
+   border: 1px solid white;
+   border-radius: 8px;
+   background-color:#e28330;
+   color: white;
+   font-size: 14px;
+   width: 130px;
+   height: 40px;
+   position: absolute;
+   top: 484%;
+   left: 47%;
+}
+
+.link-in{
+   background-color: #F5F5F5;
+   height: 30px;
+}
+
+.linked{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   left: 48%;
+   top: 500.5%;
+}
+
+.githu{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   left: 52%;
+   top: 500.5%;
+}
+
+.button:hover{
+   background-color: #fa7501;
+}
+.shift{
+   position: absolute;
+   left: 44%;
+}
+.project-items{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 3rem;
+}
+
+.project-card1{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card1 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 310%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-overlay{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 310%;
+   height: 300px;
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-overlay:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-overlay .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-overlay .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card2{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card2 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 310%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-over{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 310%;
+   height: 300px;
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-over:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-over .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-over .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card3{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card3 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 355%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-ov{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 15%;
+   top: 355%;
+   height: 300px;
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-ov:hover{
+   background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-ov .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-ov .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+
+.project-card4{
+   border-radius: 10px;
+   overflow: hidden;
+}
+
+.project-card4 img{
+   height: 300px;
+   width: 400px;
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 355%;
+   object-fit: cover;
+   object-position: center;
+}
+
+.card-o{
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 10px;
+   position: absolute;
+   left: 55%;
+   top: 355%;
+   height: 300px;
+   width: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card-o:hover{
+    background: rgba(0, 0, 0, 0);
+   color: #000;
+   transition: 0.4s all linear;
+}
+
+.card-o .bx{
+   color: #fff;
+   font-size: 1.8rem;
+   padding: 1.1rem;
+   background: rgba(0, 0, 0, 0.8);
+   border-radius: 0.8rem;
+   transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.card-o .bx:hover{
+   transform: scale(1.2);
+   color: aqua;
+   background: #000;
+   box-shadow: 0 0 2rem aqua;
+}
+
+#hamburger-nav{
+   display: none;
+}
+
+.hamburger-menu{
+   position: relative;
+   display: inline-block;
+   position: absolute;
+   top: 0;
+   right: 0%;
+}
+
+.hamburger-icon{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 24px;
+   width: 30px;
+   cursor: pointer;
+}
+
+.hamburger-icon span{
+   width: 100%;
+   height: 2px;
+   background-color: white;
+   transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+   position: absolute;
+   top: 100%;
+   right: 100%;
+   background-color: rgba(119, 115, 115, 0.717);
+   width: fit-content;
+   max-height: 0;
+   overflow: hidden;
+   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a{
+   display: block;
+   padding: 10px;
+   text-align: center;
+   font-size: 1.5rem;
+   color: white;
+   text-decoration: none;
+   transition: all 0.3 ease-in-out;
+}
+
+.menu-links li{
+   list-style: none;
+}
+
+.menu-links.open{
+   max-height: 300px;
+}
+
+.hamburger-icon.open span:first-child{
+   transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2){
+   opacity: 0;
+}
+.hamburger-icon.open span:last-child{
+   transform: rotate(-45deg) translate(10px, -5px);
+}
+
+.hamburger-icon span:first-child{
+   transform: none;
+}
+.hamburger-icon span:first-child{
+   opacity: 1;
+}
+.hamburger-icon span:first-child{
+   transform: none;
+}
+
+
+
+
+@media screen and (max-width: 1220px){
+   .img {
+      position: absolute;
+      top: 20%;
+      left: 70%;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+   }
+   .title {
+      font-size: 20px;
+      position: absolute;
+      top: 30%;
+  }
+  .first{
+     text-align: left;
+      font-size: 16px;
+      position: absolute;
+      top: 40%;
+  }
+  .project-card1 img{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 310%;
+   left: 6%;
+}
+.card-overlay{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 310%;
+   left: 6%;
+}
+.card-overlay .bx{
+   font-size: 1.4rem;
+}
+.project-card2 img{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 310%;
+   left: 56%;
+}
+.card-over{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 310%;
+   left: 56%;
+}
+.card-over .bx{
+   font-size: 1.4rem;
+}
+.project-card3 img{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 355%;
+   left: 6%;
+}
+.card-ov{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 355%;
+   left: 6%;
+}
+.card-ov .bx{
+   font-size: 1.4rem;
+}
+.project-card4 img{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 355%;
+   left: 56%;
+}
+.card-o{
+   height: 300px;
+   width: 400px;
+   position: absolute;
+   top: 355%;
+   left: 56%;
+}
+.card-o .bx{
+   font-size: 1.4rem;
+}
+}
+@media screen and (max-width: 1177px){
+   .img {
+      position: absolute;
+      top: 20%;
+      left: 70%;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+   }
+   .title {
+      font-size: 18px;
+      position: absolute;
+      top: 30%;
+  }
+  .first{
+     text-align: left;
+      font-size: 14px;
+      position: absolute;
+      top: 40%;
+  }
+  .logo{
+   font-size: 26px;
+}
+.logo-2{
+   font-size: 26px;
+   position: absolute;
+   left: 6%;
+}
+  .three h1{
+   text-align: center;
+   font-size: 22px;
+   position: absolute;
+   left: 50%;
+   top: 205%;
+  }
+  .box{
+   width: 860px;
+   height: 600px;
+   position: absolute;
+   left: 7%;
+   top: 405%;
+}
+}
+@media screen and (max-width: 1000px){
+   .menu-bar{
+      display: none;
+   }
+   #hamburger-nav{
+      display: flex;
+   }
+   .title {
+      font-size: 20px;
+      position: absolute;
+      top: 60%;
+  }
+  .first, .second {
+     text-align: left;
+      font-size: 16px;
+      position: absolute;
+      top: 70%;
+  }
+  .two h1{
+     text-align: center;
+     font-size: 22px;
+     position: absolute;
+     left: 50%;
+     top: 110%;
+  }
+  .img {
+   position: absolute;
+   top: 10%;
+   left: 30%;
+   width: 400px;
+   height: 400px;
+   border-radius: 50%;
+}
+.second {
+   position: absolute;
+   left: 10%;
+   top: 115%;
+   margin-top: 20px;
+   text-align: left;
+}
+.logo{
+   font-size: 26px;
+}
+.logo-2{
+   font-size: 26px;
+   position: absolute;
+   left: 7%;
+}
+.three h1{
+   text-align: center;
+   font-size: 22px;
+   position: absolute;
+   left: 50%;
+   top: 235%;
+}
+.z{
+   font-size: 14px;
+   position: absolute;
+   top: 258%;
+   left: 16%;
+}
+.html5{
+   width: 120px;
+   position: absolute;
+   top: 240%;
+   left: 10%;
+}
+.skill-bar-a{
+   position: absolute;
+   top: 254%;
+   left: 8%;
+}
+.y{
+   font-size: 14px;
+   position: absolute;
+   top: 258%;
+   left: 49%;
+}
+.css-3{
+   width: 110px;
+   position: absolute;
+   top: 240%;
+   left: 44%;
+}
+.skill-bar-b{
+   position: absolute;
+   top: 254%;
+   left: 41%;
+}
+.x{
+   font-size: 14px;
+   position: absolute;
+   top: 258%;
+   left: 79%;
+}
+.pyth{
+   width: 100px;
+   position: absolute;
+   top: 240%;
+   left: 77%;
+}
+.skill-bar-c{
+   position: absolute;
+   top: 254%;
+   left: 73%;
+}
+.w{
+   font-size: 14px;
+   position: absolute;
+   top: 288%;
+   left: 16%;
+}
+.ph{
+   width: 150px;
+   position: absolute;
+   top: 272%;
+   left: 8%;
+}
+.skill-bar-d{
+   position: absolute;
+   top: 285%;
+   left: 8%;
+}
+.v{
+   font-size: 14px;
+   position: absolute;
+   top: 288%;
+   left: 51%;
+}
+.R{
+   width: 120px;
+   position: absolute;
+   top: 272%;
+   left: 42%;
+}
+.skill-bar-e{
+   position: absolute;
+   top: 285%;
+   left: 41%;
+}
+.four h1{
+   text-align: center;
+   font-size: 22px;
+   position: absolute;
+   left: 50%;
+   top: 300%;
+}
+.project-card1 img{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 310%;
+   left: 6%;
+}
+.card-overlay{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 310%;
+   left: 6%;
+}
+.card-overlay .bx{
+   font-size: 1.4rem;
+}
+.project-card2 img{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 310%;
+   left: 56%;
+}
+.card-over{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 310%;
+   left: 56%;
+}
+.card-over .bx{
+   font-size: 1.4rem;
+}
+.project-card3 img{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 350%;
+   left: 6%;
+}
+.card-ov{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 350%;
+   left: 6%;
+}
+.card-ov .bx{
+   font-size: 1.4rem;
+}
+.project-card4 img{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 350%;
+   left: 56%;
+}
+.card-o{
+   height: 250px;
+   width: 300px;
+   position: absolute;
+   top: 350%;
+   left: 56%;
+}
+.card-o .bx{
+   font-size: 1.4rem;
+}
+.five h1{
+   text-align: center;
+   font-size: 22px;
+   position: absolute;
+   left: 50%;
+   top: 400%;
+}
+.box{
+   width: 680px;
+   height: 600px;
+   position: absolute;
+   left: 10%;
+   top: 405%;
+}
+.enter{
+   font-size: 22px;
+}
+#name{
+   width: 450px;
+   height: 33px;
+}
+.enter-2{
+   font-size: 23px;
+}
+#email{
+   width: 450px;
+   height: 33px;
+}
+.enter-3{
+   font-size: 23px;
+}
+#phone{
+   width: 450px;
+   height: 33px;
+}
+.enter-4{
+   font-size: 23px;
+}
+#comment{
+   width: 400px;
+   height: 120px;
+   position: absolute;
+   left: 25%;
+}
+.button{
+   position: absolute;
+   top: 484%;
+}
+.link-in{
+   background-color: #F5F5F5;
+   height: 30px;
+}
+
+.linked{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   left: 48%;
+   top: 500.5%;
+}
+
+.githu{
+   width: 25px;
+   height: 25px;
+   position: absolute;
+   left: 56%;
+   top: 500.5%;
+}
+}
+
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+   /* Reduce font size for author texts */
+   .title {
+       font-size: 18px;
+       position: absolute;
+       top: 60%;
+   }
+   .first, .second {
+      text-align: left;
+       font-size: 14px;
+       position: absolute;
+       top: 70%;
+   }
+   .two h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 105%;
+   }
+   /* Make the image small and round */
+   .img {
+      position: absolute;
+      top: 10%;
+      left: 30%;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+   }
+   /* Position text under the picture */
+   .second {
+       position: absolute;
+       left: 10%;
+       top: 105%;
+       margin-top: 20px;
+       text-align: left;
+   }
+   .logo{
+      font-size: 24px;
+   }
+   .logo-2{
+      font-size: 24px;
+      position: absolute;
+      left: 7%;
+   }
+   .three h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 220%;
+   }
+   .z{
+      font-size: 14px;
+      position: absolute;
+      top: 245%;
+      left: 16%;
+   }
+   .html5{
+      width: 120px;
+      position: absolute;
+      top: 226%;
+      left: 10%;
+   }
+   .skill-bar-a{
+      position: absolute;
+      top: 242%;
+      left: 8%;
+   }
+   .y{
+      font-size: 14px;
+      position: absolute;
+      top: 245%;
+      left: 49%;
+   }
+   .css-3{
+      width: 110px;
+      position: absolute;
+      top: 226%;
+      left: 43%;
+   }
+   .skill-bar-b{
+      position: absolute;
+      top: 242%;
+      left: 41%;
+   }
+   .x{
+      font-size: 14px;
+      position: absolute;
+      top: 245%;
+      left: 79%;
+   }
+   .pyth{
+      width: 100px;
+      position: absolute;
+      top: 226%;
+      left: 75%;
+   }
+   .skill-bar-c{
+      position: absolute;
+      top: 242%;
+      left: 73%;
+   }
+   .w{
+      font-size: 14px;
+      position: absolute;
+      top: 282%;
+      left: 14%;
+   }
+   .ph{
+      width: 140px;
+      position: absolute;
+      top: 266%;
+      left: 8%;
+   }
+   .skill-bar-d{
+      position: absolute;
+      top: 279%;
+      left: 8%;
+   }
+   .v{
+      font-size: 14px;
+      position: absolute;
+      top: 282%;
+      left: 51%;
+   }
+   .R{
+      width: 110px;
+      position: absolute;
+      top: 266%;
+      left: 43%;
+   }
+   .skill-bar-e{
+      position: absolute;
+      top: 279%;
+      left: 41%;
+   }
+
+   .four h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 300%;
+   }
+   .project-card1 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 10%;
+   }
+   .card-overlay{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 10%;
+   }
+   .card-overlay .bx{
+      font-size: 1.2rem;
+   }
+   .project-card2 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 60%;
+   }
+   .card-over{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 60%;
+   }
+   .card-over .bx{
+      font-size: 1.2rem;
+   }
+   .project-card3 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 10%;
+   }
+   .card-ov{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 10%;
+   }
+   .card-ov .bx{
+      font-size: 1.2rem;
+   }
+   .project-card4 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 60%;
+   }
+   .card-o{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 60%;
+   }
+   .card-o .bx{
+      font-size: 1.2rem;
+   }
+   .five h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 400%;
+   }
+   .box{
+      width: 550px;
+      height: 500px;
+      position: absolute;
+      left: 15%;
+      top: 410%;
+   }
+   .enter{
+      font-size: 20px;
+   }
+   #name{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-2{
+      font-size: 20px;
+   }
+   #email{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-3{
+      font-size: 20px;
+   }
+   #phone{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-4{
+      font-size: 20px;
+   }
+   #comment{
+      width: 400px;
+      height: 120px;
+      position: absolute;
+      left: 25%;
+   }
+   .button{
+      position: absolute;
+      top: 484%;
+   }
+   .link-in{
+      background-color: #F5F5F5;
+      height: 30px;
+   }
+   
+   .linked{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 48%;
+      top: 500.5%;
+   }
+   
+   .githu{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 56%;
+      top: 500.5%;
+   }
+}
+
+/* Smaller screens */
+@media screen and (max-width: 654px) {
+   /* Reduce font size for author texts */
+   .title {
+       font-size: 18px;
+       position: absolute;
+       top: 60%;
+   }
+   .first, .second {
+      text-align: left;
+       font-size: 14px;
+       position: absolute;
+       top: 70%;
+   }
+   .two h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 115%;
+   }
+   /* Make the image small and round */
+   .img {
+      position: absolute;
+      top: 10%;
+      left: 30%;
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+   }
+   /* Position text under the picture */
+   .second {
+       position: absolute;
+       left: 10%;
+       top: 115%;
+       margin-top: 20px;
+       text-align: left;
+   }
+   .logo{
+      font-size: 24px;
+   }
+   .logo-2{
+      font-size: 24px;
+      position: absolute;
+      left: 7%;
+   }
+}
+
+@media screen and (max-width: 576px) {
+   .two h1{
+      text-align: center;
+      font-size: 18px;
+      position: absolute;
+      left: 50%;
+      top: 107%;
+   }
+}
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 576px) {
+   /* Further reduce font size for author texts */
+   .title {
+       font-size: 18px;
+       position: absolute;
+       top: 50%;
+   }
+   .first, .second {
+       font-size: 14px;
+       position: absolute;
+       top: 60%;
+   }
+   /* Make the image even smaller */
+   .img {
+       width: 300px;
+       height: 300px;
+       position: absolute;
+       top: 10%;
+       left: 20%;
+       border-radius: 50%;
+   }
+   .second {
+      position: absolute;
+      left: 10%;
+      top: 105%;
+      margin-top: 20px;
+      text-align: left;
+  }
+  .two h1{
+   text-align: center;
+   font-size: 20px;
+   position: absolute;
+   left: 50%;
+   top: 103%;
+}
+  .logo{
+     font-size: 22px;
+  }
+  .logo-2{
+     font-size: 22px;
+     position: absolute;
+     left: 9%;
+  }
+  .three h1{
+     text-align: center;
+     font-size: 20px;
+     position: absolute;
+     left: 50%;
+     top: 215%;
+  }
+  .z{
+   font-size: 14px;
+   position: absolute;
+   top: 243%;
+   left: 17%;
+   }
+   .html5{
+      width: 120px;
+      position: absolute;
+      top: 226%;
+      left: 10%;
+   }
+   .skill-bar-a{
+      position: absolute;
+      top: 240%;
+      left: 10%;
+   }
+   .y{
+      font-size: 14px;
+      position: absolute;
+      top: 243%;
+      left: 49%;
+   }
+   .css-3{
+      width: 110px;
+      position: absolute;
+      top: 226%;
+      left: 43%;
+   }
+   .skill-bar-b{
+      position: absolute;
+      top: 240%;
+      left: 41%;
+   }
+   .x{
+      font-size: 14px;
+      position: absolute;
+      top: 243%;
+      left: 79%;
+   }
+   .pyth{
+      width: 100px;
+      position: absolute;
+      top: 226%;
+      left: 75%;
+   }
+   .skill-bar-c{
+      position: absolute;
+      top: 240%;
+      left: 73%;
+   }
+   .w{
+      font-size: 14px;
+      position: absolute;
+      top: 274%;
+      left: 16%;
+   }
+   .ph{
+      width: 140px;
+      position: absolute;
+      top: 260%;
+      left: 8%;
+   }
+   .skill-bar-d{
+      position: absolute;
+      top: 271%;
+      left: 10%;
+   }
+   .v{
+      font-size: 14px;
+      position: absolute;
+      top: 274%;
+      left: 51%;
+   }
+   .R{
+      width: 110px;
+      position: absolute;
+      top: 260%;
+      left: 43%;
+   }
+   .skill-bar-e{
+      position: absolute;
+      top: 271%;
+      left: 41%;
+   }
+   .four h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 300%;
+   }
+   .project-card1 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 4%;
+   }
+   .card-overlay{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 4%;
+   }
+   .card-overlay .bx{
+      font-size: 1.2rem;
+   }
+   .project-card2 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 54%;
+   }
+   .card-over{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 310%;
+      left: 54%;
+   }
+   .card-over .bx{
+      font-size: 1.2rem;
+   }
+   .project-card3 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 4%;
+   }
+   .card-ov{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 4%;
+   }
+   .card-ov .bx{
+      font-size: 1.2rem;
+   }
+   .project-card4 img{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 54%;
+   }
+   .card-o{
+      height: 200px;
+      width: 250px;
+      position: absolute;
+      top: 350%;
+      left: 54%;
+   }
+   .card-o .bx{
+      font-size: 1.2rem;
+   }
+   .five h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 400%;
+   }
+   .box{
+      width: 550px;
+      height: 500px;
+      position: absolute;
+      left: 2%;
+      top: 410%;
+   }
+   .enter{
+      font-size: 20px;
+   }
+   #name{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-2{
+      font-size: 20px;
+   }
+   #email{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-3{
+      font-size: 20px;
+   }
+   #phone{
+      width: 450px;
+      height: 33px;
+   }
+   .enter-4{
+      font-size: 20px;
+   }
+   #comment{
+      width: 400px;
+      height: 120px;
+      position: absolute;
+      left: 25%;
+   }
+   .button{
+      position: absolute;
+      top: 480%;
+   }
+   .link-in{
+      background-color: #F5F5F5;
+      height: 30px;
+   }
+   
+   .linked{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 48%;
+      top: 500.5%;
+   }
+   
+   .githu{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 56%;
+      top: 500.5%;
+   }
+   }
+
+   @media screen and (max-width: 500px) {
+      /* Further reduce font size for author texts */
+      .title {
+          font-size: 18px;
+          position: absolute;
+          top: 50%;
+      }
+      .first, .second {
+          font-size: 14px;
+          position: absolute;
+          top: 60%;
+      }
+      /* Make the image even smaller */
+      .img {
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          top: 10%;
+          left: 20%;
+          border-radius: 50%;
+      }
+      .second {
+         position: absolute;
+         left: 10%;
+         top: 105%;
+         margin-top: 20px;
+         text-align: left;
+     }
+     .two h1{
+      text-align: center;
+      font-size: 20px;
+      position: absolute;
+      left: 50%;
+      top: 105%;
+   }
+     .logo{
+        font-size: 22px;
+     }
+     .logo-2{
+        font-size: 22px;
+        position: absolute;
+        left: 12%;
+     }
+     .three h1{
+        text-align: center;
+        font-size: 20px;
+        position: absolute;
+        left: 50%;
+        top: 222%;
+     }
+     .z{
+      font-size: 14px;
+      position: absolute;
+      top: 243%;
+      left: 17%;
+      }
+      .html5{
+         width: 120px;
+         position: absolute;
+         top: 226%;
+         left: 10%;
+      }
+      .skill-bar-a{
+         position: absolute;
+         top: 240%;
+         left: 10%;
+      }
+      .y{
+         font-size: 14px;
+         position: absolute;
+         top: 243%;
+         left: 49%;
+      }
+      .css-3{
+         width: 110px;
+         position: absolute;
+         top: 226%;
+         left: 43%;
+      }
+      .skill-bar-b{
+         position: absolute;
+         top: 240%;
+         left: 41%;
+      }
+      .x{
+         font-size: 14px;
+         position: absolute;
+         top: 243%;
+         left: 79%;
+      }
+      .pyth{
+         width: 100px;
+         position: absolute;
+         top: 226%;
+         left: 75%;
+      }
+      .skill-bar-c{
+         position: absolute;
+         top: 240%;
+         left: 73%;
+      }
+      .w{
+         font-size: 14px;
+         position: absolute;
+         top: 274%;
+         left: 16%;
+      }
+      .ph{
+         width: 140px;
+         position: absolute;
+         top: 260%;
+         left: 8%;
+      }
+      .skill-bar-d{
+         position: absolute;
+         top: 271%;
+         left: 10%;
+      }
+      .v{
+         font-size: 14px;
+         position: absolute;
+         top: 274%;
+         left: 51%;
+      }
+      .R{
+         width: 110px;
+         position: absolute;
+         top: 260%;
+         left: 43%;
+      }
+      .skill-bar-e{
+         position: absolute;
+         top: 271%;
+         left: 41%;
+      }
+      .four h1{
+         text-align: center;
+         font-size: 20px;
+         position: absolute;
+         left: 50%;
+         top: 300%;
+      }
+      .project-card1 img{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 310%;
+         left: 4%;
+      }
+      .card-overlay{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 310%;
+         left: 4%;
+      }
+      .card-overlay .bx{
+         font-size: 1.2rem;
+      }
+      .project-card2 img{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 310%;
+         left: 54%;
+      }
+      .card-over{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 310%;
+         left: 54%;
+      }
+      .card-over .bx{
+         font-size: 1.2rem;
+      }
+      .project-card3 img{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 350%;
+         left: 4%;
+      }
+      .card-ov{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 350%;
+         left: 4%;
+      }
+      .card-ov .bx{
+         font-size: 1.2rem;
+      }
+      .project-card4 img{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 350%;
+         left: 54%;
+      }
+      .card-o{
+         height: 150px;
+         width: 200px;
+         position: absolute;
+         top: 350%;
+         left: 54%;
+      }
+      .card-o .bx{
+         font-size: 1.2rem;
+      }
+      .five h1{
+         text-align: center;
+         font-size: 20px;
+         position: absolute;
+         left: 50%;
+         top: 400%;
+      }
+      .box{
+         width: 450px;
+         height: 400px;
+         position: absolute;
+         left: 2%;
+         top: 410%;
+      }
+      .enter{
+         font-size: 20px;
+      }
+      #name{
+         width: 350px;
+         height: 33px;
+      }
+      .enter-2{
+         font-size: 20px;
+      }
+      #email{
+         width: 350px;
+         height: 33px;
+      }
+      .enter-3{
+         font-size: 20px;
+      }
+      #phone{
+         width: 350px;
+         height: 33px;
+      }
+      .enter-4{
+         font-size: 20px;
+      }
+      #comment{
+         width: 300px;
+         height: 120px;
+         position: absolute;
+         left: 30%;
+      }
+      .button{
+         position: absolute;
+         top: 480%;
+      }
+      .link-in{
+         background-color: #F5F5F5;
+         height: 30px;
+      }
+      
+      .linked{
+         width: 25px;
+         height: 25px;
+         position: absolute;
+         left: 48%;
+         top: 500.5%;
+      }
+      
+      .githu{
+         width: 25px;
+         height: 25px;
+         position: absolute;
+         left: 56%;
+         top: 500.5%;
+      }
+      }
